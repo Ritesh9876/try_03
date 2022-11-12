@@ -1,0 +1,8 @@
+{
+  "ENVIORNMENT":"local",
+  "backendURL": "http://localhost:5000/api",
+  "mongoAtlas": "",
+  "mongoURI": "mongodb://localhost:27017",
+  "adminUser": "",
+  "adminPass": ""
+}

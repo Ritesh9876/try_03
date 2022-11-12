@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navbar{
+    background: rgba(0,0,0,.75);
+    display: flex;
+    height: 100%;
+    padding: 25px;
+}
+
+li{
+    padding: 0 15px;
+    color: white;
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+.content1{
+    /* background-image: url("https://img.veenaworld.com/wp-content/uploads/2021/03/Gateway-of-India-Mumbai-History-and-Heritage-800x533.jpeg?imwidth=1080"); */
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.body{
+    display: flex;
+    padding: 20px;
+    font-size: large;
+}
+
+.shorts{
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+}
+
+.display{
+    padding: 20px;
+}
+
+.data{
+    width: 60vw;
+    background-color: rgb(255 255 255 / 65%);
+    color: black;
+    border-radius: 14px;
+}
+
+ul li{
+    color: black;
+    margin: 3px;
+}
+
+.display-center{
+    display: flex;
+    justify-content: center;
+}
+
+.quote, .facts, .desc{
+    margin: 15px;
+}
+
+.fact-desc{
+    margin: 8px;
+}
+
+iframe{
+    height: 80vh;
+    border: 7px solid #906c5d;
+    border-radius: 14px;
+}
